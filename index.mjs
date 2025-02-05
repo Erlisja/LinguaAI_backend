@@ -1,10 +1,13 @@
 import express from 'express';
+import db from './database/connection.mjs';
 import dotenv from 'dotenv';
 import cors from 'cors';
 // load environment variables
 dotenv.config();
 // create express app
 const app = express();
+// connect to database
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 // Middleware
 app.use(cors());
