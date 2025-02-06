@@ -1,0 +1,42 @@
+[2025-02-06 00:46:17] [32MINFO[39M: Server is running on port 3030
+[2025-02-06 00:46:32] [32MINFO[39M: POST /api/lessons/generate-lesson 200 54 - 14.034 ms
+[2025-02-06 00:46:40] [32MINFO[39M: POST /api/lessons/generate-lesson 200 773 - 2251.604 ms
+[2025-02-06 00:48:34] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:48:58] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:51:25] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:53:51] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:55:16] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:55:21] [32minfo[39m: Lesson generation request received
+[2025-02-06 00:55:28] [32minfo[39m: Lesson generation request received
+[2025-02-06 00:56:13] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:56:15] [32minfo[39m: Lesson generation request received
+[2025-02-06 00:56:15] [32mhttp[39m: POST /api/lessons/generate-lesson 200 15.170 ms
+[2025-02-06 00:56:25] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:56:28] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:56:55] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:56:59] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:57:03] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:57:07] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:57:09] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:57:10] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:57:12] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:57:14] [32mhttp[39m: Lesson generation request received
+[2025-02-06 00:57:14] [32minfo[39m: Lesson generation request received
+[2025-02-06 00:57:14] [32mhttp[39m: POST /api/lessons/generate-lesson 200 16.116 ms
+[2025-02-06 00:57:27] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:57:29] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:58:33] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:58:37] [32minfo[39m: Lesson generation request received
+[2025-02-06 00:58:37] [32mhttp[39m: POST /api/lessons/generate-lesson 200 13.884 ms
+[2025-02-06 00:58:50] [32minfo[39m: Server is running on port 3030
+[2025-02-06 00:58:53] [32minfo[39m: Lesson generation request received
+[2025-02-06 00:58:53] [36mhttp[39m: POST /api/lessons/generate-lesson 200 14.956 ms
+[2025-02-06 00:59:04] [32minfo[39m: Lesson generation request received
+[2025-02-06 00:59:04] [36mhttp[39m: POST /api/lessons/generate-lesson 200 2630.419 ms
+[2025-02-06 01:00:22] [32minfo[39m: Server is running on port 3030
+[2025-02-06 01:00:22] [32minfo[39m: This should be green
+[2025-02-06 01:00:22] [36mhttp[39m: This should be cyan
+[2025-02-06 01:00:22] [33mwarn[39m: This should be yellow
+[2025-02-06 01:00:22] [31merror[39m: This should be red
+[2025-02-06 01:00:36] [32minfo[39m: Server is running on port 3030
+[2025-02-06 01:00:37] [32minfo[39m: Server is running on port 3030

@@ -19,7 +19,9 @@
     "express": "^4.21.2",
     "langchain": "^0.3.15",
     "mongoose": "^8.9.7",
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.9",
-    "openai": "^4.82.0"
+    "openai": "^4.82.0",
+    "winston": "^3.17.0"
   }
 }
