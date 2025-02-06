@@ -1,11 +1,28 @@
 import express from 'express';
-import { createUser, getUsers } from '../controllers/userController.mjs';
+import { createUser,loginUser } from '../controllers/userController.mjs';
+import { body } from "express-validator";
 
 const router = express.Router();
 // Create a new user
-router.post('/register', createUser);
-// Get all users
-router.get('/users', getUsers);
+router.post('/register',
+    [
+        body('username').notEmpty().withMessage('Username is required'),
+        body('email').isEmail().withMessage('Please enter a valid email address'),
+        body('password').isLength({min: 6}).withMessage('Password must be at least 6 characters long')
+    ],
+    createUser
+     );
+// Login a user
+router.post('/login',
+    [
+        body('email').isEmail().withMessage('Please enter a valid email address'),
+        body('password').isLength({min: 6}).withMessage('Password must be at least 6 characters long')
+    ],
+    loginUser
+     );
+
+    
+
 
 
 export default router;

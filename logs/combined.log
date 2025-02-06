@@ -61,3 +61,9 @@
 [2025-02-06 13:00:10] [36mhttp[39m: POST /api/lessons/generate-lesson 400 19.719 ms
 [2025-02-06 13:00:22] [32minfo[39m: Lesson generation request received
 [2025-02-06 13:00:22] [36mhttp[39m: POST /api/lessons/generate-lesson 200 3544.898 ms
+[2025-02-06 18:17:28] [32minfo[39m: Server is running on port 3030
+[2025-02-06 18:17:48] [36mhttp[39m: POST /api/users/register 400 14.468 ms
+[2025-02-06 18:20:04] [36mhttp[39m: POST /api/users/register 201 152.866 ms
+[2025-02-06 18:20:22] [36mhttp[39m: POST /api/users/login 200 104.619 ms
+[2025-02-06 18:20:28] [36mhttp[39m: POST /api/users/login 400 107.435 ms
+[2025-02-06 18:20:36] [36mhttp[39m: POST /api/users/login 400 17.339 ms

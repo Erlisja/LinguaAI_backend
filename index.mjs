@@ -8,6 +8,7 @@ import userRoutes from './routes/userRoutes.mjs';
 import lessonRoutes from './routes/lessonRoutes.mjs';
 import { errorHandler } from './utils/errorHandler.mjs';
 
+
 // load environment variables
 dotenv.config();
 // create express app
@@ -30,6 +31,9 @@ app.get('/', (req, res) => {
 // Import routes
 app.use('/api/users', userRoutes);
 app.use('/api/lessons', lessonRoutes);
+
+app.use('/api/users', userRoutes);
+
 
 
 
