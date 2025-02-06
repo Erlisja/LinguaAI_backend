@@ -2,6 +2,10 @@ import express from 'express';
 import db from './database/connection.mjs';
 import dotenv from 'dotenv';
 import cors from 'cors';
+import userRoutes from './routes/userRoutes.mjs';
+import lessonRoutes from './routes/lessonRoutes.mjs';
+import { errorHandler } from './utils/errorHandler.mjs';
+
 // load environment variables
 dotenv.config();
 // create express app
@@ -18,6 +22,13 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.send(`Server is running on port ${PORT}`);
 });
+
+// Import routes
+app.use('/api/users', userRoutes);
+app.use('/api/lessons', lessonRoutes);
+
+// Error handler middleware
+app.use(errorHandler);
 
 
 // Start server
