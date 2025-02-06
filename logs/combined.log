@@ -40,3 +40,24 @@
 [2025-02-06 01:00:22] [31merror[39m: This should be red
 [2025-02-06 01:00:36] [32minfo[39m: Server is running on port 3030
 [2025-02-06 01:00:37] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:48:05] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:48:07] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:48:12] [32minfo[39m: Lesson generation request received
+[2025-02-06 12:48:12] [36mhttp[39m: POST /api/lessons/generate-lesson 200 3577.090 ms
+[2025-02-06 12:55:27] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:55:37] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:55:40] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:58:21] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:58:40] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:59:00] [36mhttp[39m: POST /api/lessons/generate-lesson 400 14.371 ms
+[2025-02-06 12:59:16] [36mhttp[39m: POST /api/lessons/generate-lesson 400 3.204 ms
+[2025-02-06 12:59:24] [36mhttp[39m: POST /api/lessons/generate-lesson 400 2.456 ms
+[2025-02-06 12:59:36] [36mhttp[39m: POST /api/lessons/generate-lesson 400 1.706 ms
+[2025-02-06 12:59:44] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:59:47] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:59:50] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:59:53] [32minfo[39m: Server is running on port 3030
+[2025-02-06 12:59:56] [32minfo[39m: Server is running on port 3030
+[2025-02-06 13:00:10] [36mhttp[39m: POST /api/lessons/generate-lesson 400 19.719 ms
+[2025-02-06 13:00:22] [32minfo[39m: Lesson generation request received
+[2025-02-06 13:00:22] [36mhttp[39m: POST /api/lessons/generate-lesson 200 3544.898 ms
