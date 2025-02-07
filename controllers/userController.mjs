@@ -63,3 +63,22 @@ export const loginUser = async(req,res) =>{
     }
 }
 
+//@route GET /api/users/guest
+// this is a route for guest users
+export const guestUser = async(req,res) =>{
+    try{
+        const guestToken = jwt.sign(
+            {role: 'guest'},
+            process.env.JWT_SECRET,
+            {expiresIn: '1h'}
+        );
+        res.json({
+            message: 'Guest access granted',
+            guest: true,
+            token: guestToken
+        });
+    }
+    catch(error){
+        res.status(500).json({error: error.message});
+    }   
+}

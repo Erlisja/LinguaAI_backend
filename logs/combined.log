@@ -67,3 +67,96 @@
 [2025-02-06 18:20:22] [36mhttp[39m: POST /api/users/login 200 104.619 ms
 [2025-02-06 18:20:28] [36mhttp[39m: POST /api/users/login 400 107.435 ms
 [2025-02-06 18:20:36] [36mhttp[39m: POST /api/users/login 400 17.339 ms
+[2025-02-06 22:01:46] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:02:06] [36mhttp[39m: POST /auth/google 404 9.753 ms
+[2025-02-06 22:02:20] [36mhttp[39m: POST /auth/google 404 1.428 ms
+[2025-02-06 22:02:59] [36mhttp[39m: GET /auth/google 404 2.334 ms
+[2025-02-06 22:03:09] [36mhttp[39m: GET /auth/google 404 2.859 ms
+[2025-02-06 22:04:19] [36mhttp[39m: GET /auth/google 404 0.810 ms
+[2025-02-06 22:04:20] [36mhttp[39m: GET /auth/google 404 7.455 ms
+[2025-02-06 22:04:28] [36mhttp[39m: GET /auth/google 404 0.655 ms
+[2025-02-06 22:04:41] [36mhttp[39m: GET /auth/google 404 0.644 ms
+[2025-02-06 22:05:14] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:05:34] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:05:37] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:05:40] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:05:47] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:06:02] [36mhttp[39m: GET /api/users/auth/google 302 2.650 ms
+[2025-02-06 22:06:19] [36mhttp[39m: GET /api/users/auth/google 302 1.046 ms
+[2025-02-06 22:06:29] [31merror[39m: User validation failed: password: Path `password` is required.
+[2025-02-06 22:06:29] [31merror[39m: Error: $
+[2025-02-06 22:06:29] [36mhttp[39m: GET /api/users/auth/google/callback?code=4%2F0ASVgi3L4q2eGYi1EEmCqgoAkgkT95fSzoMGFBtkLbOck2IQiQuvj9iyrumsWeIl-sFsXNg&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent 500 325.163 ms
+[2025-02-06 22:08:57] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:09:03] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:09:07] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:09:17] [36mhttp[39m: GET /api/users/auth/google 302 2.621 ms
+[2025-02-06 22:09:24] [31merror[39m: Error: $
+[2025-02-06 22:09:24] [36mhttp[39m: GET /api/users/auth/google/callback?code=4%2F0ASVgi3LWdkmDYwT_NK3bklxM1ho68RkX-mAZE9Uyr11XAw0xbAqwVWbSxZpwsfmGG0BRtw&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=1&prompt=consent 500 384.905 ms
+[2025-02-06 22:10:41] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:11:12] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:11:18] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:11:21] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:11:59] [36mhttp[39m: GET /api/users/auth/google 302 3.171 ms
+[2025-02-06 22:12:01] [31merror[39m: Cannot read properties of undefined (reading 'emails')
+[2025-02-06 22:12:46] [32minfo[39m: Server is running on port 3030
+[2025-02-06 22:13:39] [31merror[39m: Error: $
+[2025-02-06 22:13:39] [36mhttp[39m: GET /api/users/auth/google/callback?code=4%2F0ASVgi3JauaJxULwvqsnCokGNOxGbfzIIcUUq_btMmvpJz0eptiy8kRvYNtu829eMR_Wc5w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=none 500 137.400 ms
+[2025-02-06 23:09:04] [31merror[39m: Error: $
+[2025-02-06 23:09:05] [36mhttp[39m: GET /api/users/auth/google/callback?code=4%2F0ASVgi3JauaJxULwvqsnCokGNOxGbfzIIcUUq_btMmvpJz0eptiy8kRvYNtu829eMR_Wc5w&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=none 500 167.003 ms
+[2025-02-06 23:09:09] [36mhttp[39m: GET /api/users/auth/google 302 4.992 ms
+[2025-02-06 23:09:11] [36mhttp[39m: GET /api/users/auth/google 302 0.722 ms
+[2025-02-06 23:09:14] [31merror[39m: Cannot read properties of undefined (reading 'emails')
+[2025-02-06 23:10:22] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:10:25] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:10:53] [31merror[39m: Error: $
+[2025-02-06 23:10:53] [36mhttp[39m: GET /api/users/auth/google/callback?code=4%2F0ASVgi3L7xzNfLHcBzpIUm9ybvX3t2y344_VF_OEIC1ltviMlNRpqeqKeSmBPyd1G_--PQw&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none 500 111.587 ms
+[2025-02-06 23:11:06] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:11:19] [36mhttp[39m: GET /api/users/auth/google 302 3.002 ms
+[2025-02-06 23:11:20] [36mhttp[39m: GET /api/users/auth/google 302 1.085 ms
+[2025-02-06 23:14:26] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:14:27] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:15:21] [36mhttp[39m: GET /api/users/auth/google 302 2.689 ms
+[2025-02-06 23:15:52] [36mhttp[39m: GET /api/users/auth/google 302 1.010 ms
+[2025-02-06 23:15:54] [36mhttp[39m: GET /api/users/auth/google 302 0.705 ms
+[2025-02-06 23:18:19] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:18:26] [36mhttp[39m: GET /api/users/auth/google 302 4.094 ms
+[2025-02-06 23:18:27] [36mhttp[39m: GET /api/users/auth/google 302 1.055 ms
+[2025-02-06 23:18:29] [31merror[39m: Error: $
+[2025-02-06 23:18:29] [36mhttp[39m: GET /api/users/auth/google/callback?code=4%2F0ASVgi3IU0mbzx95v0eynOxZh-KapUm-qKSmxhZjG8a2Q44kXSkk4CuO7RBegSgIIsFqcog&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=none 500 273.831 ms
+[2025-02-06 23:19:47] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:19:49] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:21:17] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:21:27] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:21:31] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:21:34] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:21:36] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:21:37] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:21:44] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:21:45] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:21:54] [36mhttp[39m: GET /api/users/auth/google 302 2.700 ms
+[2025-02-06 23:21:54] [36mhttp[39m: GET /api/users/auth/google 302 1.094 ms
+[2025-02-06 23:21:57] [31merror[39m: Error: $
+[2025-02-06 23:21:57] [36mhttp[39m: GET /api/users/auth/google/callback?code=4%2F0ASVgi3KQkTb21Ujr0bkgEWazvmZMyuFo4Uz1je38saTkZ1YChtxqTZjIyAOSaaEft6yfdQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=1&prompt=none 500 256.951 ms
+[2025-02-06 23:22:22] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:23:52] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:24:12] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:24:18] [36mhttp[39m: GET /api/users/auth/google 302 2.947 ms
+[2025-02-06 23:24:18] [36mhttp[39m: GET /api/users/auth/google 302 0.763 ms
+[2025-02-06 23:24:21] [31merror[39m: Error: $
+[2025-02-06 23:24:21] [36mhttp[39m: GET /api/users/auth/google/callback?code=4%2F0ASVgi3KAGlhH6avGgBpVc5EqC6sEXT7rnTk1oHTTFJASZxoKsBvziLO-yOZQbrcp794CUg&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=1&prompt=none 500 249.164 ms
+[2025-02-06 23:26:54] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:26:57] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:27:10] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:27:12] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:27:14] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:27:36] [36mhttp[39m: GET /api/users/auth/google 302 5.002 ms
+[2025-02-06 23:27:37] [36mhttp[39m: GET /api/users/auth/google 302 0.817 ms
+[2025-02-06 23:27:40] [31merror[39m: Error: $
+[2025-02-06 23:27:40] [36mhttp[39m: GET /api/users/auth/google/callback?code=4%2F0ASVgi3IZDNYOuYaVL96FCGZkAeUbg-9Cu4SgzrIjn2jSuGkGgRyyYNfKV9NHDcevbfY3YQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=1&prompt=none 500 266.225 ms
+[2025-02-06 23:31:40] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:31:44] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:31:46] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:31:50] [32minfo[39m: Server is running on port 3030
+[2025-02-06 23:32:07] [36mhttp[39m: GET /api/users/auth/google 302 11.894 ms
+[2025-02-06 23:32:08] [36mhttp[39m: GET /api/users/auth/google 302 1.109 ms
+[2025-02-06 23:32:10] [36mhttp[39m: GET /api/users/auth/google/callback?code=4%2F0ASVgi3L7ZCz4lEQmI59WNqYPahIYN3Cqams9P78dQvh6PlmAAvWF46sr24AfZHdL0tgSFw&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=1&prompt=none 200 272.005 ms

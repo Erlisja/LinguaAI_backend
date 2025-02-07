@@ -1,5 +1,5 @@
 import express from 'express';
-import { createUser,loginUser } from '../controllers/userController.mjs';
+import { createUser,loginUser, guestUser } from '../controllers/userController.mjs';
 import { body } from "express-validator";
 
 const router = express.Router();
@@ -20,6 +20,9 @@ router.post('/login',
     ],
     loginUser
      );
+
+// Guest user
+router.post('/guest', guestUser);
 
     
 

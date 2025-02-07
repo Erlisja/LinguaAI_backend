@@ -7,7 +7,9 @@ import logger from './utils/logger.mjs';
 import userRoutes from './routes/userRoutes.mjs';
 import lessonRoutes from './routes/lessonRoutes.mjs';
 import { errorHandler } from './utils/errorHandler.mjs';
-
+import passport from 'passport';
+import './config/passportConfig.mjs';
+import goolgeAuthUserRoutes from './routes/googleAuthUserRoutes.mjs';
 
 // load environment variables
 dotenv.config();
@@ -22,7 +24,8 @@ app.use(httpLogger);
 app.use(cors());
 app.use(express.json());
 
-
+// Initialize passport
+app.use(passport.initialize());
 // Test route 
 app.get('/', (req, res) => {
   res.send(`Server is running on port ${PORT}`);
@@ -33,6 +36,7 @@ app.use('/api/users', userRoutes);
 app.use('/api/lessons', lessonRoutes);
 
 app.use('/api/users', userRoutes);
+app.use('/api/users/', goolgeAuthUserRoutes);
 
 
 

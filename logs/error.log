@@ -1,1 +1,13 @@
 [2025-02-06 01:00:22] [31merror[39m: This should be red
+[2025-02-06 22:06:29] [31merror[39m: User validation failed: password: Path `password` is required.
+[2025-02-06 22:06:29] [31merror[39m: Error: $
+[2025-02-06 22:09:24] [31merror[39m: Error: $
+[2025-02-06 22:12:01] [31merror[39m: Cannot read properties of undefined (reading 'emails')
+[2025-02-06 22:13:39] [31merror[39m: Error: $
+[2025-02-06 23:09:04] [31merror[39m: Error: $
+[2025-02-06 23:09:14] [31merror[39m: Cannot read properties of undefined (reading 'emails')
+[2025-02-06 23:10:53] [31merror[39m: Error: $
+[2025-02-06 23:18:29] [31merror[39m: Error: $
+[2025-02-06 23:21:57] [31merror[39m: Error: $
+[2025-02-06 23:24:21] [31merror[39m: Error: $
+[2025-02-06 23:27:40] [31merror[39m: Error: $

@@ -14,7 +14,12 @@ const authenticationToken = (req, res, next) => {
     if (token) {
         jwt.verify(token, process.env.SECRET, (err, decoded) => {
             if (err) return res.status(403).send("Token is not valid");
-            req.user = decoded.user; // Add the user object to the request object
+            // Check if the token is for a guest user
+        if (decoded.role === "guest") {
+            req.user = { guest: true }; // Identify guest users
+        } else {
+            req.user = decoded.user; // Attach the authenticated user
+        }
             
             next();
         });
