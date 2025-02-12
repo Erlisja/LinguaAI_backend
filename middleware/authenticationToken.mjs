@@ -4,6 +4,7 @@ const authenticationToken = (req, res, next) => {
     const authHeader = req.headers.authorization;
 
     // Check if the Authorization header is present and if it starts with 'Bearer '
+
     if ((!authHeader || !authHeader.startsWith('Bearer '))) {
         return res.status(401).json({ message: 'Access denied. User is not authenticated' });
     }
@@ -14,7 +15,7 @@ const authenticationToken = (req, res, next) => {
     if (token) {
         jwt.verify(token, process.env.SECRET, (err, decoded) => {
             if (err) return res.status(403).send("Token is not valid");
-            // Check if the token is for a guest user
+            // Check if the token is for a guest user 
         if (decoded.role === "guest") {
             req.user = { guest: true }; // Identify guest users
         } else {

@@ -17,14 +17,24 @@ const userModel = new mongoose.Schema({
         type: String,
         required: true
     },
-    lessonsCompleted:{
-        type:[String],
-        default: [] // default value is an empty array meaning no lessons have been completed
+    nativeLanguage:{
+        type: String,
+        required: true
     },
-    quizzesCompleted:{
-        type:[String],
-        default: [] // default value is an empty array meaning no quizzes have been completed
-    }
+    targetLanguage:{
+        type: String,
+        required: true
+    },
+    progress:[
+        {
+            lessonId: { type: mongoose.Schema.Types.ObjectId, ref: 'Lesson' },
+            completed: { type: Boolean, default: false },
+          }
+    ]
+
+    
+
+
 });
 
 // Hash the password before saving the user

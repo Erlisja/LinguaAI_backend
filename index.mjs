@@ -35,8 +35,8 @@ app.get('/', (req, res) => {
 app.use('/api/users', userRoutes);
 app.use('/api/lessons', lessonRoutes);
 
-app.use('/api/users', userRoutes);
-app.use('/api/users/', goolgeAuthUserRoutes);
+
+app.use('/api/users', goolgeAuthUserRoutes);
 
 
 

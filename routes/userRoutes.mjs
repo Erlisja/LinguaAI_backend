@@ -22,7 +22,7 @@ router.post('/login',
      );
 
 // Guest user
-router.post('/guest', guestUser);
+router.get('/guest', guestUser);
 
     
 
