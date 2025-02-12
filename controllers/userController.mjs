@@ -5,9 +5,13 @@ import { body,validationResult } from 'express-validator';
 import User from '../models/userModel.mjs';
 
 // Generate JWT Token
-const generateToken = (userID) =>{
-    return jwt.sign({id: userID}, process.env.JWT_SECRET, {expiresIn: '30d'});
-}
+const generateToken = (user) =>{
+    return  jwt.sign(
+        { user },
+        process.env.JWT_SECRET,
+        { expiresIn: '24h' }
+    );
+}   
 
 // @desc    Create a new user
 // @route   POST /api/users
@@ -29,7 +33,7 @@ export const createUser = async(req,res) =>{
             password
         });
         await user.save();
-        const token = generateToken(user._id);
+        const token = generateToken(user);
         res.status(201).json({message: 'User created successfully', token});
     }catch(error){
         res.status(500).json({error: error.message});
@@ -49,14 +53,14 @@ export const loginUser = async(req,res) =>{
     try{
         const user = await User.findOne({email});
         if(!user){
-            return res.status(400).json({msg: 'Invalid credentials'});
+            return res.status(400).json({msg: 'This user does not exist. Please register'});
         }
         const isMatch = await bcrypt.compare(password, user.password);
         if(!isMatch){
-            return res.status(400).json({msg: 'You entered an incorrect password'});
+            return res.status(400).json({msg: 'You entered an incorrect password. Please try again'});
         }
         const token = generateToken(user._id);
-        res.status(200).json({message: 'Login successful', token});
+        res.status(200).json({message: 'Login successful',user, token});
 
     }catch(error){
         res.status(500).json({error: error.message});

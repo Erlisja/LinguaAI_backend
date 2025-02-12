@@ -19,11 +19,11 @@ const userModel = new mongoose.Schema({
     },
     nativeLanguage:{
         type: String,
-        required: true
+        required: false
     },
     targetLanguage:{
         type: String,
-        required: true
+        required: false
     },
     progress:[
         {
